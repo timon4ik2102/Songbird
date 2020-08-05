@@ -1,0 +1,53 @@
+.AnswerBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.AnwearList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 40%;
+    border: 1px solid gray;
+    height: fit-content;
+    background: #303030;
+    box-sizing: border-box;
+}
+
+.AnwearList > li {
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 1px solid gray;
+    padding: 10px 20px 10px 30px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.AnwearList > li:last-child {
+    border-bottom: none;
+}
+
+.AnwearList > li:hover {
+    cursor: pointer;
+    color: darkkhaki;
+}
+
+.BirdsInfoWrapper {
+    width: 58%;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    background: #303030;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.BirdsInfoWrapper > p {
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+}

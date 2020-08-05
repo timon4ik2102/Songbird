@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    min-height: 110px;
+    margin-bottom: 10px
+}
+
+.logoSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    background-image: url('../../assets/img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.totalPoints {
+    font-size: 28px;
+    color: white;
+}
+
+.levelSection {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #7e792f;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.levelSection > li {
+    text-align: center;
+    padding: 7px 20px;
+    flex-grow: 1;
+}
+
+.activeLevel {
+    background-color: #49461e;
+    color: yellow;
+}

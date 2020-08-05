@@ -1,0 +1,122 @@
+.questionContainer {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #3e3f3fdb;
+    border: 1px solid #7d7878;
+}
+
+.pictureContainer {
+    max-width: 240px;
+    max-height: 200px;
+}
+
+.pictureContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.nameMusicContainer {
+    width: 100%;
+    min-height: 200px;
+    min-width: 400px;
+    padding: 0 20px;
+}
+
+
+:global(.rhap_container) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    /*max-width: 700px;*/
+    height: 55px;
+    padding: 0;
+}
+
+:global(.rhap_container:focus) {
+    outline: none;
+}
+
+
+
+:global(.rhap_main) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+:global(.rhap_progress-section) {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    width: 90%;
+}
+
+
+:global(.rhap_time) {
+    color: white;
+
+}
+
+:global(.rhap_controls-section) {
+    margin-top: 0;
+    flex: 0 0 auto;
+    order: -1;
+}
+
+:global(.rhap_additional-controls) {
+    display: none;
+}
+
+:global(.rhap_rewind-button) {
+    display: none;
+}
+
+:global(.rhap_forward-button) {
+    display: none;
+}
+
+:global(.rhap_volume-controls) {
+    display: none;
+}
+
+:global(.rhap_volume-controls) {
+    display: none;
+}
+
+:global(.rhap_volume-controls) {
+    display: none;
+}
+
+
+:global(.rhap_play-pause-button) {
+    color: #8d863d;
+    min-width: 10px;
+    outline: none;
+}
+
+
+:global(.rhap_stacked .rhap_controls-section) {
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+
+.questionBirdName {
+    font-size: 3em;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 30px;
+
+}
+
+
+
