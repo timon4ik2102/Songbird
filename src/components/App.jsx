@@ -2,8 +2,9 @@ import data from '../data/data';
 
 import React, {Component} from 'react';
 import Header from './Header/Header';
-import QuestionContainer from './QuestionContainer/QuestionContainer';
 import AnswearContainer from './AnswearContainer/AnswearContainer';
+import QuestionContainer from './QuestionContainer/QuestionContainer';
+
 import Next from './NextLevel/NextLevel';
 import Modal from './Modal/Modal';
 
@@ -19,6 +20,9 @@ class App extends Component {
         userAnswer: null,
         gameOver: false,
     }
+
+    playerOfQuestionBlock = React.createRef();
+    playerOfInfoBlock = React.createRef();
 
     changeState = (prop, value) => (
         this.setState((prevState) => ({[prop]: value}))
@@ -40,6 +44,8 @@ class App extends Component {
                             changeState={this.changeState}
                             rightAnswerNumber={rightAnswerNumber}
                             activePage={activePage}
+                            refQuestionPlayer = {this.playerOfQuestionBlock}
+                            refInfoPlayer = {this.playerOfInfoBlock}
                         />
                         <AnswearContainer
                             currentArr={data[activePage]}
@@ -51,6 +57,8 @@ class App extends Component {
                             currentScore={currentScore}
                             gameOver={gameOver}
                             activePage={activePage}
+                            refQuestionPlayer = {this.playerOfQuestionBlock}
+                            refInfoPlayer = {this.playerOfInfoBlock}
                         />
                     </div>
                     <Next

@@ -22,3 +22,14 @@ p {
     color: white;
     font-size: 14px;
 }
+
+/*.player > div.rhap_main {*/
+/*    display: flex;*/
+/*    flex-direction: column !important;*/
+/*    align-items: center;*/
+/*}*/
+
+#red {
+    color: red
+}
+

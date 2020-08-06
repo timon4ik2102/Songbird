@@ -4,50 +4,56 @@ import birdImg from '../../assets/img/bird.png'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import s from './QuestionContainer.module.css';
-// import Modal from "../Modal/Modal";
+import  './QuestionContainer.css';
+// import Player from '../Player/Player';
 
 
 class QuestionContainer extends React.Component {
-    playerOfQuestionBlock = React.createRef();
-    // constructor(props) {
-    //     super(props);
-    //
-    // }
+    constructor(props) {
+        super(props);
+
+    }
+    // playerOfQuestionBlock = React.createRef();
+
 
     componentDidMount() {
-        let { changeState, rightAnswerNumber } = this.props;
+        let {changeState, rightAnswerNumber} = this.props;
         rightAnswerNumber = Math.floor(Math.random() * 6) + 1;
         changeState('rightAnswerNumber', rightAnswerNumber);
     }
 
     componentDidUpdate() {
-        const { rightAnswer } = this.props;
+        const {rightAnswer} = this.props;
+        console.log('Hello@@@@@', this.props)
         if (rightAnswer) {
-
-            this.playerOfQuestionBlock.current.audio.current.pause()
+            this.props.refQuestionPlayer.current.audio.current.pause()
         }
     }
 
-
+    onPauseOtherPlayer = () =>{
+        console.log('Hello', this.props)
+        // if (this.props.refInfoPlayer.current){
+        //     this.props.refInfoPlayer.current.audio.current.pause();
+        // }
+    }
     render() {
-        const { currentArr, rightAnswer, rightAnswerNumber } = this.props;
+        const {currentArr, rightAnswer, rightAnswerNumber} = this.props;
 
 
         return (
-
             <div className={s.questionContainer}>
                 <div className={s.pictureContainer}>
-                    <img src={rightAnswer ? currentArr[rightAnswerNumber - 1].image : birdImg}  alt=""/>
+                    <img src={rightAnswer ? currentArr[rightAnswerNumber - 1].image : birdImg} alt=""/>
 
                 </div>
                 <div className={s.nameMusicContainer}>
-                    <p className={s.questionBirdName}>{rightAnswer ? `${currentArr[rightAnswerNumber - 1].name}` :'******'}</p>
+                    <p className={s.questionBirdName}>{rightAnswer ? `${currentArr[rightAnswerNumber - 1].name}` : '******'}</p>
                     <AudioPlayer
-                        className={s.AudioPlayer}
+                        onPlay={this.onPauseOtherPlayer}
+                        ref={this.props.refQuestionPlayer}
                         src={currentArr[rightAnswerNumber - 1].audio}
                         autoPlayAfterSrcChange={false}
-                        // ref={c => (this.player = c)}
-                        ref = {this.playerOfQuestionBlock }
+                        // ref={this.playerOfQuestionBlock}
                     />
 
                 </div>

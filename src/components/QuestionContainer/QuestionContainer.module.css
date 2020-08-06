@@ -54,9 +54,9 @@
 
 :global(.rhap_progress-section) {
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     align-items: center;
-    width: 90%;
+    width: 85%;
 }
 
 
@@ -84,16 +84,12 @@
 }
 
 :global(.rhap_volume-controls) {
-    display: none;
+    /*display: none;*/
+    flex: 0 1 auto;
+    min-width: 70px;
+
 }
 
-:global(.rhap_volume-controls) {
-    display: none;
-}
-
-:global(.rhap_volume-controls) {
-    display: none;
-}
 
 
 :global(.rhap_play-pause-button) {

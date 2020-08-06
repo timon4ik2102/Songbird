@@ -37,12 +37,10 @@
 .BirdsInfoWrapper {
     width: 58%;
     display: flex;
-    padding: 10px;
-    box-sizing: border-box;
+       box-sizing: border-box;
     flex-wrap: wrap;
     padding: 20px 40px;
     background: #303030;
-    box-sizing: border-box;
     border: 1px solid gray;
 }
 
