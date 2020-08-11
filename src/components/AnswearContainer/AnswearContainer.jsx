@@ -17,14 +17,12 @@ class Answear extends React.Component {
             currentScore,
             activePage,
             gameOver,
-            refQuestionPlayer,
-            refInfoPlayer
         } = this.props;
-        console.log(refQuestionPlayer, refInfoPlayer)
+        console.log(this.props)
 
 
         return (
-            <section className={s.AnswerBlock}>
+            <div className={s.AnswerBlock}>
                 <ul className={s.AnwearList}>
                     {currentArr.map((data, i) => {
                         return (
@@ -46,7 +44,7 @@ class Answear extends React.Component {
                     })}
                 </ul>
                 <div className={s.BirdsInfoWrapper}>
-                    {userAnswer  ?
+                    {userAnswer !== null ?
                         <BirdsInfo
                             birdImage={currentArr[userAnswer].image}
                             birdName={currentArr[userAnswer].name}
@@ -59,7 +57,7 @@ class Answear extends React.Component {
                         :
                         <p>Прослушайте аудио и выберите ответ</p>}
                 </div>
-            </section>
+            </div>
         );
 
     }

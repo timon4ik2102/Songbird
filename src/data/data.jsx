@@ -62,7 +62,7 @@ const data = [
             species: 'Eudocimus ruber',
             description:
                 'Красный ибис распространён на севере Южной Америки, от западной Венесуэлы через Гайану вплоть до устья Амазонки в Бразилии, а также на острове Тринидад. Его можно встретить в более или менее крупных колониях. Его питание состоит из насекомых, моллюсков, крабов и рыб. Своим серповидным согнутым вниз клювом он ковыряется в мягкой тине, отыскивая червей и крабов.',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Scarlet_ibis_arp.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Eudocimus_ruber_%28portrait%29.jpg/320px-Eudocimus_ruber_%28portrait%29.jpg',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC222844-Scarlet%20Ibis%20B%20401.mp3',
         },
         {
@@ -80,7 +80,7 @@ const data = [
             species: 'Agamia agami',
             description:
                 'Доколоводная птица из семейства цаплевых. Агами распространены в Центральной и Южной Америке от восточной Мексики до южных границ Амазонии. Обитают на лесных болотах и водно-болотных пространствах в лесистой местности. Ведут скрытный образ жизни, держатся в основном в тени под нависающей над водой сверху растительностью.Птицы гнездятся колониями на покрытиях из ветвей деревьев над водой, при этом рядом могут размещаться до 100 гнёзд. Обычно кладка состоит из двух синих яиц.',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Agami_heron_%28Agamia_agami%29_juvenile.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Agami_heron_%28Agamia_agami%29_juvenile.jpg/640px-Agami_heron_%28Agamia_agami%29_juvenile.jpg',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/CDTGHVBGZP/Agami%20Heron2011-4-10-4.mp3',
         },
         {
@@ -119,7 +119,7 @@ const data = [
             species: 'Casuarius casuarius',
             description:
                 'Шлемоносный казуар достигает высоты 1,5 м и веса около 80 кг. На голове казуар имеет вырост, называемый «шлемом», который у самцов крупнее, чем у самок. Массивные трёхпалые ноги этой новогвинейской птицы вооружены большими когтями, особенно длинным является коготь внутреннего (первого) пальца. Этим оружием казуар способен наносить серьёзные раны, так как, защищаясь, наносит мощные удары ногами. Казуары быстро бегают и хорошо прыгают.',
-            image: 'https://live.staticflickr.com/4183/34037884620_19bf190a83_k.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Casuarius_unappendiculatus_qtl1.jpg/569px-Casuarius_unappendiculatus_qtl1.jpg',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC132934-cassowary.mp3',
         },
         {
@@ -175,7 +175,7 @@ const data = [
             species: 'Lerwa lerwa',
             description:
                 'У птиц короткие округлые крылья и сильный клюв. У самцов на ногах шпора. Оперение верхней части тела самца и самки, а также головы и шеи полосами чёрно-белого цвета. Нижняя часть тела каштанового цвета. Клюв и ноги кораллового цвета.',
-            image: 'https://live.staticflickr.com/7893/47398616552_9a918e0b21_h.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/SnowPartridgeAtTungnathUttarakhandIndia.jpg/577px-SnowPartridgeAtTungnathUttarakhandIndia.jpg',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/PWDLINYMKL/XC266751-Snow%20Partridge1BL2015.mp3',
         },
         {
@@ -233,7 +233,7 @@ const data = [
             species: 'Spatula discors',
             description:
                 'Длина голубокрылого чирка — 40 см, размах крыльев — около 57 см, вес — около 400 г. У него происходит 2 линьки за год и третья линька на первом году жизни. У взрослого самца серовато-голубая голова с белым серпом на лице, светло-коричневое тело с белым пятном сзади и черный хвост. Взрослая самка пестро-коричневая с беловатой областью у основания носа. У обоих полов голубое зеркало и желтые лапы. В полете они особенно стремительно взмахивают крыльями.',
-            image: 'https://live.staticflickr.com/7877/46411970304_5e0080e5a6_h.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Blue-Winged_Teal.jpg/640px-Blue-Winged_Teal.jpg',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/WCNFEBIHCJ/XC139897-BWTE001b.mp3',
         },
         {
@@ -242,7 +242,7 @@ const data = [
             species: 'Callipepla californica',
             description:
                 'Калифорнийский  перепел характеризуется длиной от 23 до 25 см. Самец и самка окрашены одинаково, оперение самок, тем не менее, немного бледнее, у самца дополнительно присутствует чёрный надгортанник и рисунок лица. Верхняя часть тела и голова серо-бурого цвета. Перья хохла с белыми вершинами. Шея и грудь голубовато-серые. На боковых сторонах коричневатого цвета имеются тонкие, белые продольные полосы. Брюхо и подхвостье жёлто-коричневатые с чёрным чешуйчатым рисунком.',
-            image: 'https://live.staticflickr.com/65535/48400199321_3d59cd5ac4_k.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/California_Quail_mail_in_Golden_Gate_Park.JPG/640px-California_Quail_mail_in_Golden_Gate_Park.JPG',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/XEIROMUDEB/XC159657-IAC%202012-09-22%20T09-46-30.mp3',
         },
         {
@@ -260,7 +260,7 @@ const data = [
             species: 'Psittacus monachus',
             description:
                 'Птица семейства попугаевых. Длина тела 27—30 см, крыла 14—15 см; вес 100 г. Окраска оперения зелёная, грудь бледно-зеленовато-серая с поперечными полосами зелёного цвета. Шея с нижней стороны и передняя часть головы серого цвета, крылья тёмно-бурые, маховые перья синие. Подхвостье желтовато-зелёное. Клюв толстый, соломенного цвета и сильно загнутый. Радужка коричневая. Хвост ступенчатой формы, длиннее крыла, ноги короткие. ',
-            image: 'https://dibird.com/image_taxon/5_4248_34968753406_22881b1c0b_c',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Monk_Parakeet_%28Myiopsitta_monachus%29_%2828420470712%29.jpg/440px-Monk_Parakeet_%28Myiopsitta_monachus%29_%2828420470712%29.jpg',
             audio: 'https://dibird.com/media/xeno/369811.mp3',
         },
         {
@@ -328,7 +328,7 @@ const data = [
             species: 'Nesoenas mayeri',
             description:
                 'Редкая птица семейства голубиных. Видовое латинское название дано в честь немецкого физиолога Августа Майер. Единственный современный эндемичный вид голубей острова Маврикий.Розовый голубь достигает длины от 36 до 38 см и весит от 320 до 350 г.  Крылья от тёмно-серого до тёмно-коричневого цвета, первостепенные маховые перья несколько темнее. Веерообразный хвост красно-коричневый. Остальное оперение бледно-розового цвета.',
-            image: 'https://live.staticflickr.com/554/19140201239_e32d8420ec_b.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Pink_Pigeon_RWD2.jpg/640px-Pink_Pigeon_RWD2.jpg',
             audio: 'https://www.xeno-canto.org/463454/download',
         },
         {
@@ -337,7 +337,7 @@ const data = [
             species: 'Spheniscus demersus',
             description:
                 'Пингвины в воде могут развивать скорость до 20 км/ч, нырять глубже 100 м. и задерживать дыхание на 2-3 минуты. В течение кормёжки могут проплывать 70—120 км в океане. Африканский пингвин, сбежавший во время наводнения в Тбилиси 2015 года из местного зоопарка, проплыл 60 км. Питаются в основном мелкой рыбой (мальками сельди, анчоусов, сардин и др.). Основные враги — человек, акулы, чайки (для птенцов), морские котики (как конкурент за добычу и как хищник) и одичавшие кошки (для птенцов и яиц в некоторых колониях).',
-            image: 'https://live.staticflickr.com/65535/49204518852_9b69c907a4_k.jpg',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Two_Spheniscus_demersus.JPG/640px-Two_Spheniscus_demersus.JPG',
             audio: 'https://www.xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC392704-LS106470%20STONE%20POINT%20African%20Penguin%20calls%20A%20juv%20calls%20A.mp3',
         },
     ],

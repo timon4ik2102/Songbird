@@ -6,7 +6,7 @@
 .BirdsInfoAudio {
     padding-left: 20px;
     max-width: 100%;
-    min-width: 60%;
+    min-width: 70%;
 }
 
 p {
@@ -23,13 +23,50 @@ p {
     font-size: 14px;
 }
 
-/*.player > div.rhap_main {*/
-/*    display: flex;*/
-/*    flex-direction: column !important;*/
-/*    align-items: center;*/
-/*}*/
+@media (min-width: 767px) and (max-width: 1330px) {
+    .BirdImage {
+        width: 160px;
+        height: 100px;
+    }
 
-#red {
-    color: red
+    .BirdsInfoAudio {
+        padding-left: 10px;
+        max-width: 100%;
+        min-width: 60%;
+    }
+
+    p {
+        margin: 0;
+        font-size: 1.3em;
+
+    }
 }
+
+
+@media (min-width: 319px) and (max-width: 767px) {
+
+    .smallAudio {
+        height: 80px
+    }
+
+    .BirdsInfoAudio {
+        padding-left: 0;
+        max-width: 100%;
+        min-width: 100%;
+        padding-bottom: 10px;
+        height: 156px;
+    }
+    .BirdsInfoImage {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    p {
+            font-size: 1.3em;
+
+    }
+
+}
+
+
 

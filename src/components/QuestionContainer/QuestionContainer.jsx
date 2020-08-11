@@ -4,7 +4,8 @@ import birdImg from '../../assets/img/bird.png'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import s from './QuestionContainer.module.css';
-import  './QuestionContainer.css';
+import './AudioPlayer.css';
+
 // import Player from '../Player/Player';
 
 
@@ -13,6 +14,7 @@ class QuestionContainer extends React.Component {
         super(props);
 
     }
+
     // playerOfQuestionBlock = React.createRef();
 
 
@@ -24,18 +26,18 @@ class QuestionContainer extends React.Component {
 
     componentDidUpdate() {
         const {rightAnswer} = this.props;
-        console.log('Hello@@@@@', this.props)
         if (rightAnswer) {
             this.props.refQuestionPlayer.current.audio.current.pause()
         }
     }
 
-    onPauseOtherPlayer = () =>{
+    onPauseOtherPlayer = () => {
         console.log('Hello', this.props)
-        // if (this.props.refInfoPlayer.current){
-        //     this.props.refInfoPlayer.current.audio.current.pause();
-        // }
+        if (this.props.refInfoPlayer.current){
+            this.props.refInfoPlayer.current.audio.current.pause();
+        }
     }
+
     render() {
         const {currentArr, rightAnswer, rightAnswerNumber} = this.props;
 

@@ -7,11 +7,11 @@ import s from './BirdsInfo.module.css';
 
 
 
+
 class BirdsInfo extends React.Component {
 
     onPauseOtherPlayer = () =>{
-        console.log('Hello22', this.props)
-
+              this.props.refQuestionPlayer.current.audio.current.pause();
     }
 
     render() {
@@ -22,7 +22,6 @@ class BirdsInfo extends React.Component {
             birdSound,
             birdsDesc,
             refInfoPlayer,
-            refQuestionPlayer
         } = this.props;
 
 
@@ -39,9 +38,9 @@ class BirdsInfo extends React.Component {
                     <p>{birdLatineName}</p>
                     <div>
                         <Player
+                            className={s.smallAudio}
                             onPlay={this.onPauseOtherPlayer}
-                            refQuestionPlayer={refQuestionPlayer}
-                            refInfoPlayer = {refInfoPlayer}
+                            ref = {refInfoPlayer}
                             autoPlay={false}
                             autoPlayAfterSrcChange={false}
                             src={birdSound}
