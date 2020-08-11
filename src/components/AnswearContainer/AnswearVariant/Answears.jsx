@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import correct from '../../../assets/audio/correct.wav';
-import incorrect from '../../../assets/audio/incorrect.wav';
+import incorrect from '../../../assets/audio/incorrect.mp3';
 import s from './Answears.module.css';
 
 class Variant extends Component {

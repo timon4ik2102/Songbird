@@ -6,7 +6,6 @@ import 'react-h5-audio-player/lib/styles.css';
 import s from './QuestionContainer.module.css';
 import './AudioPlayer.css';
 
-// import Player from '../Player/Player';
 
 
 class QuestionContainer extends React.Component {
@@ -14,8 +13,6 @@ class QuestionContainer extends React.Component {
         super(props);
 
     }
-
-    // playerOfQuestionBlock = React.createRef();
 
 
     componentDidMount() {
