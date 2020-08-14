@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import correct from '../../../assets/audio/correct.wav';
+import correct from '../../../assets/audio/correct.mp3';
 import incorrect from '../../../assets/audio/incorrect.mp3';
 import s from './Answears.module.css';
 
