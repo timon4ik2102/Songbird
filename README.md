@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to projekt [Songbird](https://timon4ik2102-songbird.netlify.app/).
 
 ## Available Scripts
 
